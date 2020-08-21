@@ -1,0 +1,24 @@
+button{
+    background-image: linear-gradient(30deg, yellow, green, blue);
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+}
+p{
+    text-align: center;
+    margin: 30px;
+    box-shadow: 0px 0px 10px 10px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    background-image: linear-gradient(rgb(206, 156, 156), rgb(97, 9, 78));
+    color: white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

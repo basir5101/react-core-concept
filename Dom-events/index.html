@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Javascript</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="header">Hello Javascript</h1>
+    <article class="main">
+        <div class="notes" id="first-article">
+            <h2 id="name">heading - 4</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolor voluptate debitis cumque facere doloribus hic voluptatibus animi porro sit?</p>
+        </div>
+        <div class="notes">
+            <h2>heading - 4</h2>
+            <p>Id dolores corporis illo laborum distinctio dignissimos quis, iure odio nemo ea, modi ratione accusamus optio, tempore et ipsum repellat.</p>
+        </div>
+        <div class="notes">
+            <h2>heading - 4</h2>
+            <p>Et asperiores obcaecati ad repudiandae sint labore ipsa deleniti necessitatibus enim nesciunt molestiae eveniet, aut quod inventore, nulla itaque distinctio!</p>
+        </div>
+        <div class="notes">
+            <h2>heading - 4</h2>
+            <p>Tenetur aspernatur soluta doloremque rem voluptates omnis, provident, dolores deleniti consequuntur maiores, vitae autem recusandae nisi. Iusto pariatur hic cupiditate?</p>
+        </div>
+    </article>
+    <script>
+        class student{
+            constructor(sName, sId){
+                this.name = sName;
+                this.id = sId;
+            }
+        }  
+        const student1 = new student('Abdul Basir', 40);
+        const myName = student1.name;
+        const check = document.querySelectorAll('h2');
+        console.log(check.length);
+        for(var i=0 ; i < check.length; i++){
+            console.log(i)
+        }
+        
+    </script>
+</body>
+</html>

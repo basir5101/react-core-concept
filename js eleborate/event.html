@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Hander</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus inventore qui illo in numquam eveniet commodi laborum sint, recusandae quisquam.</p>
+    <p>Accusantium sed ut impedit quisquam animi pariatur hic voluptatibus unde quibusdam asperiores et, autem in, assumenda necessitatibus? Enim, ea officiis.</p>
+    <p>Illum voluptas sit officia neque deleniti impedit maiores laboriosam sequi aspernatur eius perspiciatis, accusamus aliquid modi aperiam. Unde, vero non.</p>
+    <p>In rem laborum odit harum id amet ipsam veritatis possimus earum quod voluptatem debitis doloremque, blanditiis praesentium ex enim voluptas!</p>
+    <button>click me - 1</button>
+    <button id="second">click me - 2</button>
+    <button>click me - 3</button>
+    <button>click me - 4</button>
+    <button id="last">click me - 5</button>
+
+
+
+    <script>
+        const secondButton = document.getElementById('second');
+        secondButton.addEventListener('click', function(){
+            document.body.style.color = 'blue';
+        });
+        document.getElementById('last').addEventListener('click', function(){
+            document.body.style.backgroundColor = 'yellow`'
+        })
+        // function second(){
+        //     document.body.style.backgroundColor = 'red';
+        // }
+        // secondButton.onclick =  second;
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+body{
+    background-color: #F3F1FF;
+}
+.navbar img{
+ height: 40px;
+}
+.top-player, .blog, .latest-course{
+    background-color: white;
+}
+.top-player img{
+    height: 56px;
+    width: 56px;
+}
+main{
+    max-width: 870px;
+    max-height: 689px;
+}
+.blog img{
+    width: 177px;
+}
+.latest-course img{
+    width: 224px;
+}
+.checked{
+    color: orange;
+}
+.time{
+    background-color: #FFE4E8;
+    border-radius: 30%;
+    padding: 2px;
+    margin-right: 4px;
+}
+footer{
+    max-width: 870px;
+    max-height: 689px;
+}
